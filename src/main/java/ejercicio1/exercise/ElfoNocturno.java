@@ -102,8 +102,14 @@ public class ElfoNocturno implements Personaje {
         System.out.println("Tipo: Elfo Nocturno");
         System.out.println("Nombre: " + getNombre());
         System.out.println("Nivel: " + getNivel());
-        for (TipoArma tipoArma : getArmas()) {
-            tipoArma.showInfo();
+        if (getArmas().size() > 0) {
+            System.out.println("Armas: ");
+            for (TipoArma tipoArma : getArmas()) {
+                System.out.print('\t' + "- ");
+                tipoArma.showInfo();
+            }
+        } else {
+            System.out.println("Armas: Ninguna");
         }
         System.out.println("Porcentaje de armadura: " + getPorcentajeArmadura());
         System.out.println("Puntos de ataque: " + getPuntosAtaque());

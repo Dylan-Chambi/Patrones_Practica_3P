@@ -15,6 +15,7 @@ public class AgregarTipoArma extends ObjetosPersonaje {
     public void showCaracteristicas() {
         personaje.setPuntosAtaque(sumarPorcentajes(personaje.getPuntosAtaque(), "30%"));
         personaje.setNivel(personaje.getNivel() * 2);
+        personaje.getArmas().add(this.tipoArma);
         super.showCaracteristicas();
         System.out.print("Agregado tipo de objeto: ");
         tipoArma.showInfo();
