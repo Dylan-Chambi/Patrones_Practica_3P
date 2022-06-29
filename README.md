@@ -1,4 +1,4 @@
-# Practica 2 - Patrones de diseño
+# Practica 3 - Patrones de diseño
 
 - [Ejercicio 1 - Decorator](https://github.com/Dylan-Chambi/Patrones_Practica_3P/tree/main/src/main/java/ejercicio1/exercise)
 - [Ejercicio 2 - Bridge](https://github.com/Dylan-Chambi/Patrones_Practica_3P/tree/main/src/main/java/ejercicio2/exercise)
